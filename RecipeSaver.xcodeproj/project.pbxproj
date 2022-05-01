@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5467D79E281ECA8100F8EFF8 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467D79D281ECA8100F8EFF8 /* RecipeCard.swift */; };
+		5467D7A0281EEFD900F8EFF8 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467D79F281EEFD900F8EFF8 /* RecipeList.swift */; };
+		5467D7A2281EF72300F8EFF8 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467D7A1281EF72300F8EFF8 /* RecipeView.swift */; };
 		71D5678D281BBD830066F396 /* RecipeSaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D5678C281BBD830066F396 /* RecipeSaverApp.swift */; };
 		71D5678F281BBD830066F396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D5678E281BBD830066F396 /* ContentView.swift */; };
 		71D56791281BBD840066F396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D56790281BBD840066F396 /* Assets.xcassets */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5467D79D281ECA8100F8EFF8 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = SOURCE_ROOT; };
+		5467D79F281EEFD900F8EFF8 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = SOURCE_ROOT; };
+		5467D7A1281EF72300F8EFF8 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = SOURCE_ROOT; };
 		71D56789281BBD830066F396 /* RecipeSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D5678C281BBD830066F396 /* RecipeSaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSaverApp.swift; sourceTree = "<group>"; };
 		71D5678E281BBD830066F396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 		71D5679C281BC0230066F396 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				5467D7A1281EF72300F8EFF8 /* RecipeView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -117,6 +124,8 @@
 		71D5679D281BC0370066F396 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				5467D79D281ECA8100F8EFF8 /* RecipeCard.swift */,
+				5467D79F281EEFD900F8EFF8 /* RecipeList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -207,10 +216,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				71D567A9281BC57C0066F396 /* SettingsView.swift in Sources */,
+				5467D79E281ECA8100F8EFF8 /* RecipeCard.swift in Sources */,
 				71D567A3281BC52D0066F396 /* CategoriesView.swift in Sources */,
 				71D567A5281BC5470066F396 /* NewRecipeView.swift in Sources */,
 				71D567AB281BC7810066F396 /* TabBar.swift in Sources */,
 				71D567A7281BC56C0066F396 /* FavoritesView.swift in Sources */,
+				5467D7A2281EF72300F8EFF8 /* RecipeView.swift in Sources */,
+				5467D7A0281EEFD900F8EFF8 /* RecipeList.swift in Sources */,
 				71D567A1281BC4EB0066F396 /* HomeView.swift in Sources */,
 				71D5678F281BBD830066F396 /* ContentView.swift in Sources */,
 				71D5678D281BBD830066F396 /* RecipeSaverApp.swift in Sources */,
@@ -343,7 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RecipeSaver/Preview Content\"";
-				DEVELOPMENT_TEAM = 834M34G7GH;
+				DEVELOPMENT_TEAM = W2Z849MJ9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -372,7 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RecipeSaver/Preview Content\"";
-				DEVELOPMENT_TEAM = 834M34G7GH;
+				DEVELOPMENT_TEAM = W2Z849MJ9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
