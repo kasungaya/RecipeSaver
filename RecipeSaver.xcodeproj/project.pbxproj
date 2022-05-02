@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		543C605A2820106500558D7B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543C60592820106500558D7B /* CategoryView.swift */; };
 		5467D79E281ECA8100F8EFF8 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467D79D281ECA8100F8EFF8 /* RecipeCard.swift */; };
 		5467D7A0281EEFD900F8EFF8 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467D79F281EEFD900F8EFF8 /* RecipeList.swift */; };
 		5467D7A2281EF72300F8EFF8 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5467D7A1281EF72300F8EFF8 /* RecipeView.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		543C60592820106500558D7B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = SOURCE_ROOT; };
 		5467D79D281ECA8100F8EFF8 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = SOURCE_ROOT; };
 		5467D79F281EEFD900F8EFF8 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = SOURCE_ROOT; };
 		5467D7A1281EF72300F8EFF8 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = SOURCE_ROOT; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				5467D7A1281EF72300F8EFF8 /* RecipeView.swift */,
+				543C60592820106500558D7B /* CategoryView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				71D567A3281BC52D0066F396 /* CategoriesView.swift in Sources */,
 				71D567A5281BC5470066F396 /* NewRecipeView.swift in Sources */,
 				71D567AB281BC7810066F396 /* TabBar.swift in Sources */,
+				543C605A2820106500558D7B /* CategoryView.swift in Sources */,
 				71D567A7281BC56C0066F396 /* FavoritesView.swift in Sources */,
 				5467D7A2281EF72300F8EFF8 /* RecipeView.swift in Sources */,
 				5467D7A0281EEFD900F8EFF8 /* RecipeList.swift in Sources */,
